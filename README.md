@@ -1,24 +1,24 @@
-# 📺 Netflix GPT 🎬💡
+# 📺 React Netflix GPT App with Firebase Auth & AI Search 🎬💡
 
-An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
+### An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 🔐 **Authentication** with Firebase (Sign In/Sign Up)
-- 🤖 **GPT-powered Movie Suggestions** using OpenAI API
-- 🎞️ **TMDB API Integration** for live movie data
-- 🌐 **Multi-language Support** (English, Hindi, Spanish)
-- 📺 **Hero Section with Movie Trailer** from YouTube
-- 🎥 **Genre-based Categorized Movie Rows**
-- 🔍 **Search Bar with Real-time GPT Fetch**
-- 🧑‍🎤 **User Avatar & Logout Support**
-- 🧠 **State Management using Redux Toolkit**
-- 🖼️ **Responsive Design using Tailwind CSS**
-- ⚡ **AOS Animations** for smooth component transitions
-- 💫 **Movie Details Modal** on card click
-- 🎉 **Shimmer UI** for loading states
+- 🔐 **Firebase Auth**: Login, Signup, and Profile with Firebase Authentication
+- 🧠 **GPT Integration**: Smart movie recommendations using `OpenAI GPT 3.5 Turbo`
+- 📺 **TMDB API**: Fetching genre-based movies, trailers, posters, ratings, and descriptions
+- 📜 **Multilingual Support**: English, Hindi, and Spanish (Dynamic GPT UI Translation)
+- 🧰 **Redux Store**: Centralized state management with multiple slices
+- 📦 **Modular Hooks**: Custom hooks for each movie genre (14+ Hooks)
+- 📽️ **YouTube Trailer Background**: Movie trailer autoplaying in the background
+- 🎥 **Clickable Movie Cards**: Opens Modal with movie description, poster & release info
+- 🌐 **Routing & Navigation**: React Router-based login and browse views
+- 🎨 **TailwindCSS Styling**: Beautifully styled with animations, shadows, and gradients
+- 🎭 **Shimmer Loading Effects**: Improved UI experience during data fetching
+- 🦾 **Fully Responsive**: Clean layout across screen sizes (desktop-first)
+- 🚫 **.env secured**: Environment variables kept safe
 
 ---
 
@@ -73,15 +73,12 @@ These results are then fetched from TMDB based on names and rendered beautifully
 
 ---
 
-## 📦 Technologies Used
+## 🛠️ Tech Stack
 
-- React 18
-- Redux Toolkit
-- Tailwind CSS + AOS
-- Firebase Auth
-- OpenAI API (GPT 3.5)
-- TMDB API
-- React Router DOM v6
+| Frontend      | State Mgmt     | Backend & APIs    | Styling        | Deployment |
+|---------------|----------------|-------------------|----------------|------------|
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat&logo=firebase&logoColor=black) | ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel&logoColor=white) |
+| ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | ![RTK](https://img.shields.io/badge/Redux_Toolkit-purple?style=flat) | ![TMDB](https://img.shields.io/badge/TMDB-01b4e4?style=flat&logoColor=white) | ![AOS](https://img.shields.io/badge/AOS-Animation-green?style=flat) | ![Firebase Hosting](https://img.shields.io/badge/Hosted_on-Firebase-yellow?style=flat) |
 
 ---
 
