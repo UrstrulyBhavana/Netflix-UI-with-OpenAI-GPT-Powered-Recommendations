@@ -1,4 +1,4 @@
-```markdown
+
 # 🎬 Netflix GPT
 
 > A fully responsive, GPT-powered movie recommendation app built with ReactJS, TailwindCSS, Firebase, Redux, and OpenAI — delivering real-time movie suggestions via TMDB and OpenAI GPT APIs 🌟
