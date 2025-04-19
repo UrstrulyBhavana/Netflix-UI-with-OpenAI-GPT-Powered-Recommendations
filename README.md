@@ -1,6 +1,6 @@
-# 📺 React Netflix GPT App with Firebase Auth & AI Search 🎬💡
+# 📺 React Netflix GPT App with Firebase Auth & AI Search 💡
 
-### An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
+#### An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
 
 ---
 
@@ -21,6 +21,17 @@
 - 🚫 **.env secured**: Environment variables kept safe
 
 ---
+
+
+## 🛠️ Tech Stack
+
+| Frontend      | State Mgmt     | Backend & APIs    | Styling        | Deployment |
+|---------------|----------------|-------------------|----------------|------------|
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat&logo=firebase&logoColor=black) | ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel&logoColor=white) |
+| ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | ![RTK](https://img.shields.io/badge/Redux_Toolkit-purple?style=flat) | ![TMDB](https://img.shields.io/badge/TMDB-01b4e4?style=flat&logoColor=white) | ![AOS](https://img.shields.io/badge/AOS-Animation-green?style=flat) | ![Firebase Hosting](https://img.shields.io/badge/Hosted_on-Firebase-yellow?style=flat) |
+
+---
+
 
 ## 📂 Folder Structure (Simplified)
 
@@ -73,31 +84,10 @@ These results are then fetched from TMDB based on names and rendered beautifully
 
 ---
 
-## 🛠️ Tech Stack
 
-| Frontend      | State Mgmt     | Backend & APIs    | Styling        | Deployment |
-|---------------|----------------|-------------------|----------------|------------|
-| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat&logo=firebase&logoColor=black) | ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat&logo=vercel&logoColor=white) |
-| ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) | ![RTK](https://img.shields.io/badge/Redux_Toolkit-purple?style=flat) | ![TMDB](https://img.shields.io/badge/TMDB-01b4e4?style=flat&logoColor=white) | ![AOS](https://img.shields.io/badge/AOS-Animation-green?style=flat) | ![Firebase Hosting](https://img.shields.io/badge/Hosted_on-Firebase-yellow?style=flat) |
+## 🖼️ Demo :-
 
----
 
-## 🖼️ Screenshots (Optional)
-
-> Add your screenshots here using:
-
-```md
-![Screenshot](./assets/screenshot1.png)
-```
-
----
-
-## 🧪 Testing
-
-Basic testing with React Testing Library is enabled:
-```bash
-npm test
-```
 
 ---
 
