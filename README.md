@@ -29,12 +29,19 @@ Netflix GPT is an intelligent movie browsing platform that combines a Netflix-st
 ### 📚 Technologies Used
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+
 ![Redux Toolkit](https://img.shields.io/badge/Redux--Toolkit-purple?style=flat)
+
 ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=flat&logo=firebase&logoColor=black)
+
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+
 ![TMDB](https://img.shields.io/badge/TMDB-01b4e4?style=flat&logoColor=white)
+
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
 ![AOS](https://img.shields.io/badge/AOS-Animations-green?style=flat)
+
 ![Netlify](https://img.shields.io/badge/Hosted_on-Netlify-00C7B7?style=flat)
 
 ---
@@ -86,21 +93,24 @@ NetflixGPT/
 
 ---
 
-## 🧪 Functionalities
 
-1. **Firebase Authentication** – Email/password login, signup, logout
-2. **ChatGPT Integration** – Uses GPT-3.5-turbo for personalized suggestions
-3. **Hero Video Banner** – Embeds trailer in fullscreen with gradient overlay
-4. **Genre-Based Rows** – Lists Now Playing, Popular, Top Rated, Horror, etc.
-5. **GPT Movie Search** – Returns multiple movie names & fetches matching TMDB data
-6. **Shimmer Loading** – Animated skeleton loaders for better user experience
-7. **Multi-Language Toggle** – Dynamically change GPT language via dropdown
-8. **Modal Popups** – Click on cards to view poster, title, overview, release date
-9. **Redux Toolkit** – Manages movies, user, and GPT data slices
-10. **Error States** – Handles no result states and loading fallbacks
-11. **Responsive Design** – Fully responsive using TailwindCSS
-12. **Video Trailer Integration** – Dynamic trailer fetch using TMDB video API
+## 📝 Project Demonstration
 
+```
+How it Works:
+
+✔️  Users can sign up/sign in using Firebase Authentication.
+✔️  Browse movies dynamically fetched from TMDB API (Now Playing, Popular, etc.).
+✔️  View a fullscreen trailer of the featured movie on the homepage.
+✔️  Use the GPT search bar to get AI-powered movie recommendations.
+✔️  GPT results are fetched via OpenAI and displayed in grouped rows.
+✔️  Switch GPT input language dynamically via the language dropdown.
+✔️  Click on movie cards to open modals with title, poster, overview, and release date.
+✔️  Shimmer loaders provide a smooth UI experience during data fetch.
+✔️  Responsive UI built using TailwindCSS for all screen sizes.
+✔️  AOS animations used for visual polish and subtle transitions.
+✔️  API keys (TMDB & OpenAI) secured using .env file.
+```
 ---
 
 ## 🔧 Installation
