@@ -1,6 +1,6 @@
-# 📺 React Netflix GPT App with Firebase Auth & AI Search 💡
+# 📺 Netflix UI with OpenAI GPT-Powered Recommendations💡 
 
-#### An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
+ An AI-powered movie recommendation platform inspired by Netflix's interface. Users can sign in, explore genre-based movie sections, and interact with an integrated GPT-based movie search system powered by OpenAI and TMDB APIs.
 
 ---
 
