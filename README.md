@@ -6,25 +6,23 @@ Netflix GPT is an intelligent movie browsing platform that combines a Netflix-st
 
 ---
 
-### 🔒 NOTE: Regarding GPT Search Feature
-This project includes an AI-powered GPT Search feature powered by OpenAI. However, please note the following:
+> ⚠️ **IMPORTANT NOTE: GPT Search Feature Requires Your Own API Key**
 
-### 🔐 The OpenAI API Key has been removed from the codebase to prevent unauthorized use and potential misuse, as it was linked to a paid account.
+🚫 This project includes a GPT-powered search feature using the OpenAI API.  
+However, the **original API key has been removed** to avoid unauthorized usage and billing issues, since it was linked to a paid account.
 
-### ⚠️ GPT Search will not function by default in the current deployed version or cloned repository.
+❌ As a result, GPT Search will **not work** out-of-the-box in this repository or deployed demo.
 
-### 💡 To enable GPT Search in your local or deployed version:
-
-Visit https://platform.openai.com/account/billing
-
-Set up your own billing account
-
-Generate an API key from https://platform.openai.com/account/api-keys
-
-Create a .env file and add:
+🔑 To use GPT Search in your local or deployed version:
+1. Create a billing account: [OpenAI Billing](https://platform.openai.com/account/billing)
+2. Generate your own API Key: [OpenAI API Keys](https://platform.openai.com/account/api-keys)
+3. Add it to a `.env` file in this format:
+```env
 REACT_APP_OPENAI_KEY=your_openai_key_here
+```
 
-### 🎥 You can still view the GPT feature in action through the demo video included in this repository. Please refer to the video to understand its functionality and design.
+🎬 The GPT feature is fully demonstrated in the project video.  
+To experience it yourself, follow the above steps and add your own key.
 
 ---
 
