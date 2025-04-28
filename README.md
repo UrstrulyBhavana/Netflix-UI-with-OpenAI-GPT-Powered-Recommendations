@@ -1,4 +1,10 @@
-# 🎮 Netflix GPT: Movie Explorer App with GPT Integration
+# 🎬 Netflix GPT 🎥 | AI Movie Recommender (GPT Integration) + Streaming UI 
+
+## 📽️ Demo
+
+> Explore the key features of the **BM-Feast App** in this walkthrough video:
+
+
 
 ## 🌟 Overview
 
@@ -133,7 +139,7 @@ How it Works:
 ```
 ---
 
-## 🔧 Installation
+## 💻 Installation
 
 ```bash
 # Clone the repository
@@ -152,32 +158,32 @@ npm run build
 
 ---
 
-## 📹 Demo
-
-*(Insert video link here)*
-
----
-
-## 🔑 API References
+## 🔗 API Reference
 
 - [TMDB API](https://developer.themoviedb.org/docs)
 - [OpenAI API](https://platform.openai.com/docs/)
 
 ---
 
-## 👥 Contributors
+🙋‍♀️ Author
+Linga Bhavana – Frontend Developer
 
-Developed & maintained by [Bhavana Linga](https://github.com/UrstrulyBhavana) 🌸
-
----
-
-## 📩 Contact
-
-For queries or suggestions, email: **urstrulybhavana1432@gmail.com**
+GitHub | urstrulybhavana1432@gmail.com
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License**.
+📬 **Contact**
+
+For questions or suggestions, feel free to reach out:
+
+- 📧 **Email**: [urstrulybhavana1432@gmail.com](mailto:urstrulybhavana1432@gmail.com)  
+- 🐙 **GitHub**: [UrstrulyBhavana](https://github.com/UrstrulyBhavana)
+
+
+---
+
+📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
