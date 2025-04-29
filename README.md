@@ -1,8 +1,8 @@
-# 🎬 Netflix GPT 🎥 | AI Movie Recommender (GPT Integration) + Streaming UI 
+# 🎬 Netflix GPT 🎥 | AI Movie Recommender ( GPT-3.5 Turbo) + Streaming UI 
 
-## 📽️ Watch Full Demo on YouTube
+## 📽️ Watch Full Demo on YouTube Netflix GPT 🔥 |
 
-[![Netflix GPT Demo](https://github.com/UrstrulyBhavana/Netflix-UI-with-OpenAI-GPT-Powered-Recommendations/blob/main/netflix-gpt.png?raw=true)](https://youtu.be/AqPCNt6xmXY)
+[![Netflix GPT Demo](https://github.com/UrstrulyBhavana/Netflix-UI-with-OpenAI-GPT-Powered-Recommendations/blob/main/e40a1c39-9b86-405a-9155-1c4cc8746196.png?raw=true)](https://youtu.be/AqPCNt6xmXY)
 
 > 🚀 Click the image above to watch Netflix GPT in action!
 
@@ -13,6 +13,7 @@ Netflix GPT is an intelligent movie browsing platform that combines a Netflix-st
 ---
 
 > ⚠️ **IMPORTANT NOTE: GPT Search Feature Requires Your Own API Key**
+ GPT API feature will NOT work on the live site unless you configure your own OpenAI API Key in `.env` file.
 
 🚫 This project includes a GPT-powered search feature using the OpenAI API.  
 However, the **original API key has been removed** to avoid unauthorized usage and billing issues, since it was linked to a paid account.
