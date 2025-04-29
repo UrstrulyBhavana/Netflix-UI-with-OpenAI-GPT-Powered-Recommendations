@@ -1,10 +1,16 @@
 # 🎬 Netflix GPT 🎥 | AI Movie Recommender ( GPT-3.5 Turbo) + Streaming UI 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%96%20by%20Bhavana-brightgreen?style=for-the-badge" alt="Made with Love by Bhavana" />
+</p>
+
 ## 📽️ Watch Full Demo on YouTube Netflix GPT 🔥 |
 
-[![Netflix GPT Demo](https://raw.githubusercontent.com/UrstrulyBhavana/Netflix-UI-with-OpenAI-GPT-Powered-Recommendations/main/061d05e0-6143-4db5-b68f-4a04a84db969.png)](https://youtu.be/AqPCNt6xmXY)
+Click the image below to watch the video demo:
 
-> 🚀 Click the image above to watch Netflix GPT in action!
+[![Netflix GPT Demo](https://img.youtube.com/vi/AqPCNt6xmXY/0.jpg)](https://youtu.be/AqPCNt6xmXY)
+
+> 🎥 This video showcases how OpenAI GPT-3.5 Turbo responds to your prompts with personalized movie suggestions — a feature not visible in the deployed app due to API key removal.
 
 
 ## 🌟 Overview
