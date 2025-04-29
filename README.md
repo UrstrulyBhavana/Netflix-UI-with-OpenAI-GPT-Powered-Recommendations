@@ -2,9 +2,10 @@
 
 ## 📽️ Watch Full Demo on YouTube Netflix GPT 🔥 |
 
-[![Netflix GPT Demo](https://github.com/UrstrulyBhavana/Netflix-UI-with-OpenAI-GPT-Powered-Recommendations/blob/main/e40a1c39-9b86-405a-9155-1c4cc8746196.png?raw=true)](https://youtu.be/AqPCNt6xmXY)
+[![Netflix GPT Demo](https://raw.githubusercontent.com/UrstrulyBhavana/Netflix-UI-with-OpenAI-GPT-Powered-Recommendations/main/061d05e0-6143-4db5-b68f-4a04a84db969.png)](https://youtu.be/AqPCNt6xmXY)
 
 > 🚀 Click the image above to watch Netflix GPT in action!
+
 
 ## 🌟 Overview
 
