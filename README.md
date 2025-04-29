@@ -1,9 +1,10 @@
 # 🎬 Netflix GPT 🎥 | AI Movie Recommender (GPT Integration) + Streaming UI 
 
-## 📽️ Demo
+## 📽️ Watch Full Demo on YouTube
 
-> Explore the key features of the **BM-Feast App** in this walkthrough video:
+[![Netflix GPT Demo](https://your-github-uploaded-image-link.webp)](https://youtu.be/AqPCNt6xmXY)
 
+> 🚀 Click the image above to watch Netflix GPT in action!
 
 
 ## 🌟 Overview
