@@ -163,7 +163,6 @@ npm start
 # Build for production
 npm run build
 ```
-
 ---
 
 ## 🔗 API Reference
@@ -180,14 +179,12 @@ GitHub | urstrulybhavana1432@gmail.com
 
 ---
 
-
 📬 **Contact**
 
 For questions or suggestions, feel free to reach out:
 
 - 📧 **Email**: [urstrulybhavana1432@gmail.com](mailto:urstrulybhavana1432@gmail.com)  
 - 🐙 **GitHub**: [UrstrulyBhavana](https://github.com/UrstrulyBhavana)
-
 
 ---
 
