@@ -1,7 +1,7 @@
 import { BG_URL } from "../utils/constants";
 import GptMovieSuggestions from "./GptMovieSuggestions";
 import GptSearchBar from "./GptSearchBar";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const GPTSearch = () => {
   return (
@@ -17,11 +17,11 @@ const GPTSearch = () => {
         </div>
       </div>
 
-      <div className="flex-grow px-4 pt-6 md:px-8">
+      <div className="flex-grow px-4 sm:px-6 md:px-12 pt-6">
         <GptMovieSuggestions />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -19,7 +19,7 @@ const SecondaryContainer = () => {
   
   return (
     <div className="bg-black">
-      <div className="mt-12 md:-mt-17 pl-4  md:pl-12 relative z-20">
+      <div className="relative z-20 mt-12 px-4 sm:px-6 md:px-12 space-y-12">
         {animationMovies?.length > 0 && (
           <MovieList title="Animation" movies={animationMovies} />
         )}

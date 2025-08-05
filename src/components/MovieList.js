@@ -5,14 +5,14 @@ const MovieList = ({ title, movies }) => {
   const isLoading = !movies || movies.length === 0;
 
   return (
-    <div className="mb-12 px-6">
-      <h1 className="text-xl md:text-3xl text-white font-bold py-4 mt-6">{title}</h1>
+    <div className="mb-14 sm:mb-20">
+      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-4 pl-1">{title}</h1>
 
       {isLoading ? (
         <Shimmer />
       ) : (
-        <div className="overflow-x-auto scrollbar-hide mb-4">
-          <div className="flex flex-nowrap gap-6">
+        <div className="overflow-x-auto scrollbar-hide pb-2">
+          <div className="flex gap-4 sm:gap-6">
             {movies.map((movie, index) =>
               movie ? (
                 <MovieCard key={movie.id || index} movie={movie} />

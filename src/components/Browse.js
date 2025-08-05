@@ -32,23 +32,25 @@ const Browse = () => {
   useNowPlayingMovies();
   useWesternMovies();
   useUpcomingMovies();
- 
+  
   return (
-    <div className="min-h-screen flex flex-col">
-      <div className="flex-grow">
-        <Header />
-        {showGptSearch ? (
-          <GptSearch />
-        ) : (
-          <>
-            <MainContainer />
-            <SecondaryContainer />
-            <Footer />
-          </>
-        )}
-      </div>
+  <div className="min-h-screen flex flex-col bg-black text-white">
+    <Header />
+    
+    <div className="flex-grow pt-16 sm:pt-20">
+      {showGptSearch ? (
+        <GptSearch />
+      ) : (
+        <>
+          <MainContainer />
+          <SecondaryContainer />
+        </>
+      )}
     </div>
-  );
+
+    <Footer />
+  </div>
+);
 };
 
 export default Browse;
