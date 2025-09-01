@@ -147,6 +147,13 @@ How it Works:
 ```
 ---
 
+## Development History
+
+- `old-85-commits`: 85 commits (original build & features).
+- `master`: 23 commits (UI polish, bug fixes, GPT refinements).
+
+---
+
 ## 💻 Installation
 
 ```bash
