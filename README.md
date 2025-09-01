@@ -147,13 +147,6 @@ How it Works:
 ```
 ---
 
-## Development History
-
-- `old-85-commits`: 85 commits (original build & features).
-- `master`: 23 commits (UI polish, bug fixes, GPT refinements).
-
----
-
 ## 💻 Installation
 
 ```bash
@@ -170,6 +163,14 @@ npm start
 # Build for production
 npm run build
 ```
+---
+
+## 📌 Development History
+
+- **v1-history (85 commits)** → Original NetflixGPT build with full commit history
+  
+- **master (23 commits)** → Latest polished version with UI fixes, GPT refinements, and responsive design
+
 ---
 
 ## 🔗 API Reference
