@@ -2,7 +2,10 @@ import MovieCard from "./MovieCard";
 import Shimmer from "./Shimmer";
 
 const MovieList = ({ title, movies }) => {
-  const isLoading = !movies || movies.length === 0;
+
+  const isLoading = movies == null;
+
+  if (Array.isArray(movies) && movies.length === 0) return null;
 
   return (
     <div className="mb-14 sm:mb-20">
@@ -11,14 +14,10 @@ const MovieList = ({ title, movies }) => {
       {isLoading ? (
         <Shimmer />
       ) : (
-        <div className="overflow-x-auto scrollbar-hide pb-2">
-          <div className="flex gap-4 sm:gap-6">
-            {movies.map((movie, index) =>
-              movie ? (
-                <MovieCard key={movie.id || index} movie={movie} />
-              ) : null
-            )}
-          </div>
+        <div className="flex gap-4 sm:gap-6 px-4 pr-8 overflow-x-auto overflow-y-hidden scrollbar-hide">
+          {movies.map((movie, index) =>
+            movie ? <MovieCard key={movie.id || index} movie={movie} /> : null
+          )}
         </div>
       )}
     </div>

@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html { 
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges; 
 }
 
 body {
@@ -13,12 +14,52 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Fallback for browsers without 'svh' */
+.hero-h {
+  height: 75vh;
+}
+
+@media (min-width: 768px) {
+  .hero-h-md {
+    height: 85vh;
+  }
+}
+
+@supports (height: 100svh) {
+  .hero-h {
+    height: 75svh;
+  }
+
+  .hero-h-md {
+    height: 85svh;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  transition: background-color 9999s ease-out 0s;
+  box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+}
 

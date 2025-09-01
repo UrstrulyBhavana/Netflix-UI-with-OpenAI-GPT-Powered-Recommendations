@@ -1,13 +1,12 @@
 import { BG_URL } from "../utils/constants";
 import GptMovieSuggestions from "./GptMovieSuggestions";
 import GptSearchBar from "./GptSearchBar";
-// import Footer from "./Footer";
 
 const GPTSearch = () => {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col">
+    <div className="min-h-screen bg-black text-white flex flex-col overflow-x-hidden">
       <div
-        className="relative w-full h-[75vh] md:h-[85vh] bg-cover bg-center"
+        className="relative w-full hero-h hero-h-md bg-cover bg-center"
         style={{ backgroundImage: `url(${BG_URL})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
@@ -17,11 +16,9 @@ const GPTSearch = () => {
         </div>
       </div>
 
-      <div className="flex-grow px-4 sm:px-6 md:px-12 pt-6">
+      <div className="px-4 sm:px-6 md:px-12 pt-6 pb-10">
         <GptMovieSuggestions />
       </div>
-
-      {/* <Footer /> */}
     </div>
   );
 };

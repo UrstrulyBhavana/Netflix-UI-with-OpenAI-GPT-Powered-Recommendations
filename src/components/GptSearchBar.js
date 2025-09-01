@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import lang from "../utils/languageConstants";
 import { API_OPTIONS } from "../utils/constants";
 import { addGptMovieResult } from "../utils/gptSlice";
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 
 const GptSearchBar = () => {
   const dispatch = useDispatch();
@@ -22,24 +24,77 @@ const GptSearchBar = () => {
   };
 
   const handleGptSearchClick = async () => {
-    const userInput = searchText.current.value;
+    const userInput = (searchText.current?.value || "").trim();
     if (!userInput) return;
 
-    const gptQuery = `Act as a Movie Recommendation system and suggest some movies for the query: ${userInput}. Only give me names of 5 movies, comma separated like the example: Gadar, Sholay, Don, Golmaal, Koi Mil Gaya`;
+    const gptQuery =
+      `Act as a Movie Recommendation system and suggest some movies for the query: ${userInput}. ` +
+      `Only give me names of 5 movies, comma separated like the example: Gadar, Sholay, Don, Golmaal, Koi Mil Gaya`;
 
-    const gptResults = await openai.chat.completions.create({
-      messages: [{ role: "user", content: gptQuery }],
-      model: "gpt-3.5-turbo",
-    });
+    try {
+      const gptResults = await openai.chat.completions.create({
+        messages: [{ role: "user", content: gptQuery }],
+        model: "gpt-3.5-turbo",
+      });
 
-    const gptMovies = gptResults?.choices?.[0]?.message?.content?.split(",") || [];
+      const gptMovies =
+        (gptResults?.choices?.[0]?.message?.content || "")
+          .split(",")
+          .map((s) => s.trim())
+          .filter(Boolean);
 
-    const promiseArray = gptMovies.map((movie) => searchMovieTMDB(movie));
-    const tmdbResults = await Promise.all(promiseArray);
+      if (!gptMovies.length) {
+        await Swal.fire({
+          icon: "warning",
+          title: "No results",
+          text: "GPT didn’t return movie names. Try a different query.",
+          confirmButtonText: "OK",
+          background: "#111827",    
+          color: "#e5e7eb",
+          confirmButtonColor: "#a855f7",
+          scrollbarPadding: false,
+        });
+        return;
+      }
 
-    dispatch(addGptMovieResult({ movieNames: gptMovies, movieResults: tmdbResults }));
-    searchText.current.value = "";
-  };
+      const promiseArray = gptMovies.map((movie) => searchMovieTMDB(movie));
+      const tmdbResults = await Promise.all(promiseArray);
+
+      dispatch(addGptMovieResult({ movieNames: gptMovies, movieResults: tmdbResults }));
+    } catch (err) {
+      console.error(err);
+      const isAuth =
+        err?.status === 401 ||
+        err?.response?.status === 401 ||
+        /api key|unauthorized|invalid/i.test(err?.message || "");
+
+      if (isAuth) {
+        Swal.fire({
+          icon: "info",
+          title: "GPT Search is disabled",
+          html: 'Add your own <b>OpenAI API key</b> to enable this feature.',
+          confirmButtonText: "OK",
+          background: "#111827", 
+          color: "#e5e7eb",      
+          confirmButtonColor: "#a855f7", 
+          scrollbarPadding: false,
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "GPT Search unavailable",
+          text: "Please try again later.",
+          confirmButtonText: "OK",
+          background: "#111827",
+          color: "#e5e7eb",
+          confirmButtonColor: "#a855f7",
+          scrollbarPadding: false,
+        });
+      }
+    } finally {
+      if (searchText.current) searchText.current.value = "";
+    }
+  }
 
   return (
     <form
