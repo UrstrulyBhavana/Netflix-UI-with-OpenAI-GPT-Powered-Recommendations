@@ -8,7 +8,7 @@
 
 Click the image below to watch the video demo:
 
-[![Netflix GPT Demo](https://img.youtube.com/vi/PFfKG8Wsnws/0.jpg)](https://youtu.be/PFfKG8Wsnws)
+[![Netflix GPT Demo](https://img.youtube.com/vi/PFfKG8Wsnws/maxresdefault.jpg)](https://youtu.be/PFfKG8Wsnws)
 
 > 🎥 This video showcases how OpenAI GPT-3.5 Turbo responds to your prompts with personalized movie suggestions — a feature not visible in the deployed app due to API key removal.
 
